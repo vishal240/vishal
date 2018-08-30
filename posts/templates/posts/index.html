@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{title}}</title>
+</head>
+<body>
+	{% for post in posts %}
+		<a href="/details/{{post.id}}">{{post.title}}</a>
+	{% endfor %}
+</br><a href="/admin">Admin</a>
+</body>
+</html>
